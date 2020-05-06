@@ -23,3 +23,10 @@ ageChecker("random")
 print(age)
 
 print("hello")
+
+if age > 12:
+  print("You're a teenager")
+else:
+  print("You're a pre-teen")
+
+print("hi")
