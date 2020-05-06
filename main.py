@@ -11,13 +11,16 @@ def ageChecker(x):
     print("You're a teenager - " + x)
   elif age <= 12:
     print("You're a pre-teen - " + x)
-  else:
+  elif age > 19 and age < 65:
     print("You're an adult - " + x)
+  else:
+    print("You're a senior - " + x)
 
 ageChecker("var")
 
-age = random.randint(10,20)
+age = random.randint(10,90)
 
 ageChecker("random")
 
 print(age)
+
