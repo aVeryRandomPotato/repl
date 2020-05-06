@@ -2,7 +2,7 @@ import random
 
 my_name = "Chase"
 
-print("Hello " + my_name)
+print("Hello" + my_name)
 
 age = 10
 
